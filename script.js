@@ -1,6 +1,4 @@
-//choice
 var itemContainers = document.querySelectorAll(".item-container");
-//p
 var items = document.querySelectorAll(".item");
 var dragItem = null;
 
