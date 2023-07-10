@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>Assignment - 3</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <main class="main">
+            <div class="todo-container">
+                <div class="title">TODO</div>
+                <div class="todo item-container">
+                    <div class="item" draggable="true">item 1</div>
+                    <div class="item" draggable="true">item 2</div>
+                    <div class="item" draggable="true">item 3</div>
+                    <div class="item" draggable="true">item 4</div>
+                    <div class="item" draggable="true">item 5</div>
+                    <div class="item" draggable="true">item 6</div>
+                    <div class="item" draggable="true">item 7</div>
+                    <div class="item" draggable="true">item 8</div>
+                    <div class="item" draggable="true">item 9</div>
+                    <div class="item" draggable="true">item 0</div>
+                </div>
+            </div>
+            <div class="working-container">
+                <div class="title">WORKING</div>
+                <div class="working item-container">
+                    <div class="item" draggable="true">item 11</div>
+                    <div class="item" draggable="true">item 12</div>
+                    <div class="item" draggable="true">item 13</div>
+                    <div class="item" draggable="true">item 14</div>
+                </div>
+            </div>
+            <div class="done-container">
+                <div class="title">DONE</div>
+                <section class="done item-container">
+                    <div class="item" draggable="true">item 15</div>
+                    <div class="item" draggable="true">item 16</div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+
+    <script src="./script.js"></script>
 </body>
+
 </html>
